@@ -5,7 +5,7 @@ import pandas as pd
 # 1. Setup the AI "Brain"
 # Get your key from: https://aistudio.google.com/
 genai.configure(api_key="AIzaSyApJcDbeEyNVFOGFOWJz7XxsZ798SlfBI8")
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 st.set_page_config(page_title="Ethio-AI Master", page_icon="🇪🇹")
 st.title("🇪🇹 Ethio-AI: Heritage & Humanitarian Portal")
